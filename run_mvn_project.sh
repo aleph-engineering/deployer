@@ -12,12 +12,9 @@ BRANCH_NAME="refactoring"
 cd $PROJECT_LOCATION
 git pull $REMOTE_NAME $BRANCH_NAME
 
-echo pgrep --full maven
-
 mvn clean install
 cd incubator.web
 
-echo pgrep --full maven
 pkill --full maven
 
 mvn clean package tomcat7:run-war-only
