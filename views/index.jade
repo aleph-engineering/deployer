@@ -1,5 +1,8 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+    h1= title
+    p Welcome to #{title}
+    button(id='export_db') EXPORT DB
+    div(style="margin:3em; width: 30em; height: 30em")
+        p= log

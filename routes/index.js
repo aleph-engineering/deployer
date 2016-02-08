@@ -29,6 +29,7 @@ router.get('/api/export_from_localhost', function (req, res) {
             if (error !== null) {
                 console.log('exec error: ' + error);
             }
+            res.render('index', {log: stdout})
         });
 });
 module.exports = router;
