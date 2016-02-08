@@ -2,11 +2,11 @@
 ENTITIES="BasicProfileEntity GitHubRepositoryEntity GitHubUserEntity HiredEntity UserEntity UserProviderEntity"
 DB_NAME="inCubator"
 PRJECT_PATH="/home/Development/Projects/incubator_db_seed"
-DUMP_FOLDER="commands/dumps/"
+DUMP_FOLDER="dumps/"
 
-function exportDatabase(){
+function import_database(){
 	for entity in ${ENTITIES} ; do
-		mongoexport --db ${DB_NAME} --collection ${entity} -o ${DUMP_FOLDER}${entity}.json
+		mongoimport --db ${DB_NAME} --collection ${entity} --file ${DUMP_FOLDER}${entity}.json
 	done
 }
-exportDatabase
+import_database
