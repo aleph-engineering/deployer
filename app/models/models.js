@@ -145,30 +145,31 @@ var GitHubUserEntity = new Schema({
 });
 
 var HiredEntity = new Schema({
-    "className" : { type: String },
-    "hiredUserName" : { type: String },
-    "recruiterUserName" : { type: String },
-    "recruitingDate" : { type: Date },
-    "qualification" : { type: Number }
+    className : { type: String },
+    hiredUserName : { type: String },
+    recruiterUserName : { type: String },
+    recruitingDate : { type: Date },
+    qualification : { type: Number },
+    version: {type: Number}
 });
 
 var UserEntity = new Schema({
-    "className" : { type: String },
-    "username" : { type: String },
-    "fullName" : { type: String },
-    "email" : { type: String },
-    "title" : { type: String },
-    "registerDate" : { type: Date },
-    "stargazers" : { type: Number },
-    "avatar" : { type: String }
+    className : { type: String },
+    username : { type: String },
+    fullName : { type: String },
+    email : { type: String },
+    title : { type: String },
+    registerDate : { type: Date },
+    stargazers : { type: Number },
+    avatar : { type: String }
 });
 
 var UserProviderEntity = new Schema({
-    "className" : { type: String },
-    "username" : { type: String },
-    "provider" : { type: String },
-    "loginName" : { type: String },
-    "email" : { type: String }
+    className : { type: String },
+    username : { type: String },
+    provider : { type: String },
+    loginName : { type: String },
+    email : { type: String }
 });
 
 module.exports = {
