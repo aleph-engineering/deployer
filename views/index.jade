@@ -3,6 +3,7 @@ extends layout
 block content
     h1= title
     p Welcome to #{title}
-    button(id='export_db') EXPORT DB
+    button(id='export_db' class="deployer-btn") EXPORT DB
+    button(id='pull_dumps' class="deployer-btn") PULL DUMPS
     div(style="margin:3em; width: 30em; height: 30em")
-        p= log
+        p(id="#log")= log

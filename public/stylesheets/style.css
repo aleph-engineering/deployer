@@ -1,8 +1,20 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+    color: #00B7FF;
+}
+
+.deployer-btn {
+    padding: .4em .8em;
+    background: -webkit-linear-gradient(rgba(60,60,160,0.9)0%, rgba(60, 60, 190, .9) 50%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(60,60,160,0.9)0%, rgba(60, 60, 190, 0.9) 50%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(60,60,160,0.9)0%, rgba(60, 60, 190, 0.9) 50%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(60,60,170,0.9)0%, rgba(60, 60, 190, 0.9) 50%)!important;
+    color: rgba(255,255,255,1)!important;
+    border-radius: .2em;
+    border-color: transparent;
+    margin-left: .8em;
 }
