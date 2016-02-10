@@ -8,6 +8,8 @@ npm-debug.log*
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio
 
 *.iml
+/commands/dumps
+/commands/.gitignore
 
 ## Directory-based project format:
 .idea/
