@@ -32,4 +32,20 @@ router.get('/api/export_from_localhost', function (req, res) {
             res.render('index', {log: stdout})
         });
 });
+// JSON API ----------------------------------------------------------------
+// get action to pull the dumps
+router.get('/api/pull_dumps', function (req, res) {
+    var path_command = getPath("pull_dumps.sh");
+    var command = exec(path_command,
+        function (error, stdout, stderr) {
+            if (error !== null) {
+                console.log('exec error: ' + error);
+            }
+            res.render('index', {log: stdout})
+        });
+});
+
+function getPath(fileName){
+    return path.join(__dirname,'../commands/./' + fileName);
+}
 module.exports = router;
