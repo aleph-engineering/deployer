@@ -2,7 +2,7 @@
  * Created by refucktor on 2/10/16.
  */
 $(function(){
-    $('#deploy').click(deployIncubator);
+    $('#deploy_incubator').click(deployIncubator);
     $('#import_dumps').click(import_dumps);
 });
 
