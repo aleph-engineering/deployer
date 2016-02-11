@@ -1,0 +1,2 @@
+{ "_id" : "5671dceb2b5e87bf8b24a26e", "className" : "io.ae.incubator.domain.entities.HiredEntity", "hiredUserName" : "aNeutrino", "recruiterUserName" : "anieblas", "recruitingDate" : { "$date" : 1450302699224 }, "qualification" : 0, "version" : 1 }
+{ "_id" : "56722f292b5e87bf8b24a2c8", "className" : "io.ae.incubator.domain.entities.HiredEntity", "hiredUserName" : "aNeutrino", "recruiterUserName" : "anieblas", "recruitingDate" : { "$date" : 1450323753020 }, "qualification" : 0, "version" : 1 }

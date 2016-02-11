@@ -1,0 +1,3 @@
+{ "_id" : "566072292b5e5c2134fcf67", "className" : "io.ae.incubator.domain.entities.UserProviderEntity", "username" : "anieblas", "provider" : "github", "loginName" : "anieblas", "email" : "anieblas@gmail.com", "version" : 1 }
+{ "_id" : "566072292b5e5c33467fc123", "className" : "io.ae.incubator.domain.entities.UserProviderEntity", "username" : "anieblas", "provider" : "linkedin", "loginName" : "KSgUxo-95o", "email" : "anieblas@gmail.com", "version" : 1 }
+{ "_id" : "566452292b5e5c2134fcf67", "className" : "io.ae.incubator.domain.entities.UserProviderEntity", "username" : "aNeutrino", "provider" : "github", "loginName" : "aNeutrino", "email" : "a@fjfj.pl", "version" : 1 }
