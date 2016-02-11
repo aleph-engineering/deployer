@@ -23,7 +23,7 @@ function deployIncubator(){
         headers: {'Access-Control-Allow-Origin' : '*'},
         dataType: "json",
         crossDomain: true,
-        url: "/api/export_from_localhost",
+        url: "/api/deploy_incubator",
         success: function (data) {
             console.log(data);
             printLogs(data);
