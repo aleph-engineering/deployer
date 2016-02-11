@@ -6,7 +6,7 @@
 GIT_REPOSITORY_URL="ssh://zero@zero/var/lib/public/incubator"
 PROJECT_NAME="incubator"
 PROJECT_LOCATION="/opt/new_incubator"
-REMOTE_NAME="origin"
+REMOTE_NAME="https://github.com/aleph-engineering/new_incubator.git"
 BRANCH_NAME="refactoring"
 
 cd $PROJECT_LOCATION
