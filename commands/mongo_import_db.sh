@@ -2,7 +2,7 @@
 ENTITIES="BasicProfileEntity GitHubRepositoryEntity GitHubUserEntity HiredEntity UserEntity UserProviderEntity"
 DB_NAME_TEST="inCubator"
 DUMP_FOLDER="commands/dumps/"
-GIT_REMOTE_NAME="dumps"
+GIT_REMOTE_NAME="https://github.com/refucktor/incubator.dumps.git"
 
 function import_database(){
 	for entity in ${ENTITIES} ; do
