@@ -59,8 +59,10 @@ function import_dumps(){
 function printLogs(logs){
     var lines = logs.split("\n");
     $('.log-panel').removeClass('hide');
-    for(item in lines){
-        $('.log-panel').append("<p class='log-item'>" +
-            lines[item] + "<p>");
+    for(var item in lines){
+        if(item) {
+            $('.log-panel').append("<p class='log-item'>" +
+                lines[item] + "<p>");
+        }
     }
 }
